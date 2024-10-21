@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "stock-play-manager"
+version = "0.1.0"
+description = ""
+authors = ["Jackson Karel <jackson.karel2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
